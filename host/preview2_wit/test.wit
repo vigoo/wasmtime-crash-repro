@@ -1,0 +1,11 @@
+default world test {
+  import wall-clock: clocks.wall-clock
+  import monotonic-clock: clocks.monotonic-clock
+  import timezone: clocks.timezone
+  import filesystem: filesystem.filesystem
+  import poll: poll.poll
+  import streams: io.streams
+  import environment: wasi-base.environment
+  import preopens: wasi-base.preopens
+  import exit: wasi-base.exit
+}
